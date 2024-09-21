@@ -18,12 +18,12 @@ header{
     flex-wrap:wrap;
     justify-content:space-evenly;
     gap:3vw;
-    padding:0 2vw;
+    padding:0 5vw;
 
 }
 .gallery-items{
-    width:325px;
-    height:325px;
+    width:350px;
+    height:350px;
     border:10px solid #fff;
     box-shadow:5px 5px 5px #0006;
     flex-grow:1;
@@ -43,14 +43,14 @@ header{
 
 @media screen and (max-width:707px){
     .gallery-items{
-        width:325px;
-        height:325px;
+        width:330px;
+        height:330px;
         transition: transform .1s linear;
     
     }
 
     .gallery-items:hover{
-        transform:scale(1.1);
+        transform:scale(.9);
         
     }
 
