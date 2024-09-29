@@ -5,7 +5,7 @@ var swiper = new Swiper(".swiper",{
     speed:500,
     rotate:true,
     autoplay: {
-        delay: 500,
+        delay: 1000,
     },
     mousewheel: {
         invert:false,
