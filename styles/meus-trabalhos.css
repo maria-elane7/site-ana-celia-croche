@@ -87,13 +87,13 @@ img{
     transform:translate(-50%, -50%);
     border:5px solid #fff;
     border-radius:5px;
-    width:370px;
+    width:400px;
     object-fit:cover;
 }
 
 @media (max-width:768px){
     .container .popup-image img{
-        width:77%;
+        width:80%;
     }
 
     .logo img{
