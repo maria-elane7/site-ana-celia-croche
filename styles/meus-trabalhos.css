@@ -23,7 +23,6 @@
     background-image:linear-gradient(to top,#0A7373,#b7bf995e ,#010221);
     position:relative;
     min-height:100vh;
-    min-width: 100vw;
 }
 img{
     width:100%;
