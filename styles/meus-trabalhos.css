@@ -23,7 +23,6 @@
     background-image:linear-gradient(to top,#0A7373,#b7bf995e ,#010221);
     position:relative;
     min-height:100vh;
-    min-width: 100vw;
 }
 img{
     width:100%;
@@ -36,15 +35,15 @@ img{
     gap:15px;
     justify-content:center;
     padding:10px;
-    border-bottom:0;
 }
 
 .container .image-container .image{
-    height: 100%;
-    width:100vw;
+    height:100%;
+    width:400px;
     border:10px solid #fff;
     box-shadow:0 5px 15px rgba(0,0,0,.1);
     overflow:hidden;
+    cursor:pointer;
   
 }
 
