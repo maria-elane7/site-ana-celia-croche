@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Trabalhos</title>
+    <link rel="stylesheet" href="styles/meus-trabalhos.css">
+
+</head>
+<body>
+
+    <main class="container">
+        <section class="logo">
+            <a href="index.html" target="_blank" rel="prev"><img src="imagens/Logo.png" alt="lodo do site"></a>
+        </section>
+        <section class="image-container">
+            <div class="image"><img src="imagens/1.jpg" alt="trilho de mesa"></div>
+            <div class="image"><img src="imagens/2.jpg" alt="tapete"></div>
+            <div class="image "><img src="imagens/3.jpg" alt="tapete"></div>
+            <div class="image"><img src="imagens/4.jpg" alt="tapete"></div>
+            <div class="image"><img src="imagens/5.jpg" alt="tapete"></div>
+            <div class="image"><img src="imagens/6.jpg" alt="tapete"></div>
+            <div class="image"><img src="imagens/7.jpg" alt="tapete"></div>
+            <div class="image"><img src="imagens/8.jpg" alt="tapete"></div>
+            <div class="image"><img src="imagens/9.jpg" alt="tapete"></div>
+            <div class="image"><img src="imagens/10.jpg" alt="tapete"></div>
+            <div class="image"><img src="imagens/11.jpg" alt="tapete"></div>
+        </section>
+
+        <section class="popup-image">
+            <span>&times;</span>
+            <img src="imagens/1.jpg" alt="trilho de mesa">
+        </section>
+
+    </main>
+    
+
+
+
+    <script>
+        document.querySelectorAll('.image-container img').forEach(image =>{
+            image.onclick = () =>{
+                document.querySelector('.popup-image').style.display = "block";
+                document.querySelector('.popup-image img').src = image.getAttribute('src');
+            }
+        });
+
+        document.querySelector('.popup-image span').onclick = () =>{
+            document.querySelector('.popup-image').style.display = 'none';
+        }
+
+    </script>
+</body>
+</html>
