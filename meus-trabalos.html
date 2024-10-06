@@ -26,11 +26,25 @@
             <div class="image"><img src="imagens/10.jpg" alt="tapete"></div>
             <div class="image"><img src="imagens/11.jpg" alt="tapete"></div>
         </section>
-
+        <section class="popup-image">
+            <span>&times;</span>
+            <img src="imagens/1.jpg" alt="crochê">
+        </section>
     </main>
-    
 
+  <script>
+    document.querySelectorAll('.image-container img').forEach(image =>{
+        image.onclick = () =>{
+            document.querySelector('.popup-image').style.display = 'block';
+            document.querySelector('.popup-image img').src = image.getAttribute('src');
+        }
 
+    })
+
+    document.querySelector('.popup-image span').onclick = () =>{
+        document.querySelector('.popup-image').style.display = 'none';
+    }
+  </script>  
 
 </body>
 </html>
