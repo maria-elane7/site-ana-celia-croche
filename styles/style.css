@@ -9,9 +9,7 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    height:100vh;
    background-image:linear-gradient(to top,#0A7373,#b7bf995e ,#010221);
-   background-attachment: fixed;
 }
 header{
     margin:5px 0px 0px 40px;
@@ -67,8 +65,9 @@ button:hover{
     
     .conteudo-pricipal{
         flex-direction:column-reverse;
-        padding:3%;
+        position:relative;
         margin:-40px 0px 0px -0px;
+      
     }
     .img{
         width:40%;
